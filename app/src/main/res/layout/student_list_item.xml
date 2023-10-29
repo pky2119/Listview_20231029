@@ -30,5 +30,5 @@
         android:layout_height="wrap_content"
         android:text="전화번호 자리"/>
 
-</LinearLayout>
+</LinearLayout>.
 </layout>
