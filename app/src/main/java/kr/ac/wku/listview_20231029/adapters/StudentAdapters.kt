@@ -44,7 +44,8 @@ class StudentAdapters(
 
         txtName.text = stdData.name
         txtPhoneNum.text = stdData.phoneNum
-        txtAge.text = "(${ 2023 - stdData.birthYear + 1}세)"
+        txtAge.text = "(${ stdData.getKoreanAge((2023))}세)"
+
         
 
 
